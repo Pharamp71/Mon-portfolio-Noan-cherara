@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Space+Grotesk:wght@300..700&display=swap');
 
-
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
 /* ------------------------------
             RESET
  ---------------------------------*/
@@ -240,10 +240,16 @@ footer{
             COULEUR
  ---------------------------------*/
 
-.body {
-    background-color: #c3d4ef;
+body {
+    background-color: #77b1da;
    
 }
+
+.bg-noir{
+    background-color: black;
+}
+
+
 
 .bg-bleu-fonce{
     background-color: #103571;
@@ -252,32 +258,44 @@ footer{
 .txt-blanc{
     color: white;
 }
-.a{
-    color: aliceblue;
-    font-family: "Inter", sans-serif;
+
+.txt-noir{
+    color: black;
+}
+
+a{
+    font-family: "Space Grotesk", sans-serif;
+    color: black;
+    font-size: 16px;
 }
 /* ------------------------------
             TITRE
  ---------------------------------*/
 
 
-.h1 {
+h1 {
     font-family: "Space Grotesk", sans-serif;
     font-weight: 500;
     font-size: 70px;
 }
 
-.h2 {
+h2 {
     font-family: "Space Grotesk", sans-serif;
-    
+    font-size: 32px;
 }
 
-.h3 {
+h3 {
     font-family: "Space Grotesk", sans-serif;
+    font-size: 20px;
 }
 
 .h4 {
     font-family: "Space Grotesk", sans-serif;
+}
+
+p{
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 16px;
 }
 
 
@@ -309,4 +327,14 @@ footer{
     border-radius: 15px ;
     color: #103571;
 
+}
+
+.btn-portfo{
+    text-decoration: none;
+    padding: 10px 15px 10px 15px;
+    background-color: #eca713;
+    font-weight: 800;
+    display: inline-block;
+    border-radius: 25px ;
+    border: black;
 }
